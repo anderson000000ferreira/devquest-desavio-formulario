@@ -1,0 +1,28 @@
+@media(max-width: 780px) {
+    .infor {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .infor .container {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .infor .container p {
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 460px) {
+    .infor .form {
+        max-width: 80%;
+        height: 320px;
+        margin-bottom: 10px;
+    }
+
+    .infor .form .caixa-texto {
+        max-width: 85%;
+    }
+}

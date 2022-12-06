@@ -1,0 +1,87 @@
+body {
+    background: url(../image/bg-repeat.jpg);
+    background-size: contain;
+    background-position: center;
+    min-height: 1330px;
+    min-height: 50%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.infor {
+    display: flex;
+    width: 100%; 
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.infor .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;    
+}
+
+.infor .container h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 90%;
+}
+
+.infor .container p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 80%;  
+}
+
+.infor .form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 380px;
+    padding: 20px;
+}
+
+.infor .form .caixa-texto {
+    width: 90%;
+    padding: 10px 9px;
+    margin-top: 10px;
+    margin-left: 6px;
+    border-radius: 10px;
+}
+
+.infor .form .mensagem {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.infor .form .infor-obrigatorio {
+    display: none;
+    color: #F52E2E;
+    font-size: 8px;
+    line-height: 8px;
+    max-width: 90%;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.infor .form .btn-enviar {
+    background-color: #3CCC87;
+    color: #fff;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
